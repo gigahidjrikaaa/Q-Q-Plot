@@ -1,6 +1,6 @@
 # Q-Q Plot for Most Streamed Spotify Songs 2023
 
-This is a Q-Q plot for Most Streamed Spotify Songs 2023. The data is from [Kaggle](https://www.kaggle.com/code/rajatraj0502/most-streamed-spotify-songs-2023). 
+This is a Q-Q plot for Most Streamed Spotify Songs 2023. The data is from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023). 
 
 ## Insights
 
