@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import scipy.stats as stats
-import numpy as np
 
 # Read the dataset (ISO-8859-1 encoding)
 spotify_data = pd.read_csv('dataset/spotify-2023.csv', encoding='ISO-8859-1')

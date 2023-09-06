@@ -2,13 +2,13 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import scipy.stats as stats
 
-# Read the dataset (assuming ISO-8859-1 encoding)
+# Read the dataset (ISO-8859-1 encoding)
 spotify_data = pd.read_csv('dataset/spotify-2023.csv', encoding='ISO-8859-1')
 
-# Convert the "streams" column to numeric (if needed)
+# Convert the "streams" column to numeric
 spotify_data['streams'] = pd.to_numeric(spotify_data['streams'], errors='coerce')
 
-# Generate Q-Q plots for different distributions with shape parameters if needed
+# Generate Q-Q plots for different distributions with shape parameters
 distributions = {
     'norm': {},
     'expon': {},
