@@ -2,6 +2,9 @@
 
 This is a Q-Q plot for Most Streamed Spotify Songs 2023. The data is from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023). 
 
+<!-- Insert image -->
+![Q-Q Plot](https://github.com/gigahidjrikaaa/Q-Q-Plot/blob/main/plots/Complete%20Q-Q.png)
+
 ## Insights
 
 - Exponential Distribution: The data points align more closely with the 45-degree line when compared with an exponential distribution. This suggests that the "streams" data may follow an exponential distribution, which is often seen in "winner-takes-all" scenarios. Most songs have fewer streams, while a few have significantly more.
